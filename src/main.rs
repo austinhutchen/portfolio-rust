@@ -23,5 +23,6 @@ html!{
 
 
 fn main() {
-    yew::Renderer::<App>::new().render();
+    let app =     yew::Renderer::<App>::new();
+    app.render();
 }
