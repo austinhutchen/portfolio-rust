@@ -4,7 +4,11 @@ use yew::prelude::*;
 fn app()->Html{
 
 html!{
+    <body>
     <h1>{"Hello World!"}</h1>
+    <b>{"this is hello world"}</b>
+    </body>
+   
 }
 
 }
