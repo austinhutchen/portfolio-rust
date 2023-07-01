@@ -4,6 +4,7 @@ use yew::prelude::*;
 fn app() -> Html {
     html! {
         <body >
+        <script src="./components/helpers.js"/>
         <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="./components/styles.css.css"/>
         <h1 class="test">{"Hello World!"}</h1>
         <b>{"this is hello world"}</b>
