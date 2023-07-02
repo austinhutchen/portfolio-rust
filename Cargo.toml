@@ -7,5 +7,6 @@ edition = "2021"
 
 
 [dependencies]
+web-sys = "0.3.64"
 
 yew = { version = "0.20.0", features = ["csr"] }
