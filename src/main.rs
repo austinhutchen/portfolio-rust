@@ -5,9 +5,15 @@ fn app() -> Html {
     html! {
         <html>
 
-        <div >
-        <h1 class={classes!("test")}>{"Hello World!"}</h1>
-        <h4><b>{"this is hello world"}</b></h4>
+        <div class={classes!("center")}>
+        <h1 ><b><u>{"Hello World!"}</u></b></h1>
+        <a href="" class={classes!("center")}>{"Welcome to my page!"}</a>
+        <ul class={classes!("landing")} >
+       <li> <a href=""> <b>{"About me!"} </b> </a>  </li>
+       <li> <a href=""> <b>{"projects"} </b> </a> </li>
+       <li> <a href=""> <b> {"resume"} </b> </a>  </li>
+       <li> <a href=""> <b>{"more"} </b> </a>  </li>
+        </ul>
         </div>
         </html>
 
