@@ -1,6 +1,8 @@
 .heading {
  color: blue;
-
+ font-family: sans-serif;
+ size: 100px;
+ 
 }
 
 .center {
@@ -13,10 +15,11 @@ h4 {
 }
 
 .landing{
-font-family: 'Times New Roman', Times, serif;
+ font-family: sans-serif
 
 
 }
 .unify{
  font-size:large;
+ font-family: sans-serif
 }

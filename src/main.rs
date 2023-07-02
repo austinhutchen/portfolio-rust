@@ -10,7 +10,7 @@ fn app() -> Html {
         <html>
 
         <div class={classes!("center")}>
-        <h1 ><b><u>{"Hello World!"}</u></b></h1>
+        <h1 class={classes!("heading")} ><b><u>{"Hello World!"}</u></b></h1>
         <a href="" class={classes!("unify")}>{"Welcome to my page!"}</a>
         <ul class={classes!("landing")} >
 
